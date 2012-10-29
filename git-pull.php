@@ -1,1 +1,1 @@
-<?php error_reporting(E_ALL); `cd .. && git pull`; 
+<?php shell_exec('cd .. && git pull'); ?>
