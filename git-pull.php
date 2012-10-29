@@ -1,1 +1,1 @@
-<?php  if ( $_POST['payload'] ) { shell_exec('git pull'); } ?>
+<?php echo `cd .. && git pull`;
